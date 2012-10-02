@@ -1,13 +1,10 @@
 <?php
-
 /**
- * Amon: Integrate FuelPHP with Amon Exception & Logging
+ * Integrated ChromePHP into FuelPHP
  *
- * @package    Amon
- * @version    v0.1
+ * @package    Chromephp
+ * @version    0.1
  * @author     Matthew McConnell
- * @license    MIT License
- * @link       http://github.com/maca134/fuelphp-amon
  */
 
 namespace Chromephp;

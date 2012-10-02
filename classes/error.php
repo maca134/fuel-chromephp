@@ -1,4 +1,12 @@
 <?php
+/**
+ * Integrated ChromePHP into FuelPHP
+ *
+ * @package    Chromephp
+ * @version    0.1
+ * @author     Matthew McConnell
+ */
+
 namespace Chromephp;
 
 /**
@@ -38,7 +46,7 @@ class Chromephp_Exception_Notice extends Chromephp_Exception {
 class Error extends \Fuel\Core\Error {
 
     /**
-     * Amon Exception handler
+     * Exception handler
      *
      * @param  Exception $e the exception
      * @return bool
@@ -52,7 +60,7 @@ class Error extends \Fuel\Core\Error {
     }
 
     /**
-     * Amon Error handler
+     * Error handler
      *
      * @param  int    $severity the severity code
      * @param  string $message  the error message
@@ -89,7 +97,7 @@ class Error extends \Fuel\Core\Error {
     }
 
     /**
-     * Amon PHP shutdown handler
+     * PHP shutdown handler
      *
      * @return void
      */
@@ -114,7 +122,7 @@ class Error extends \Fuel\Core\Error {
     }
 
     /**
-     * Amon Exception handler
+     * Exception handler
      *
      * @param  Exception $e the exception
      * @return bool

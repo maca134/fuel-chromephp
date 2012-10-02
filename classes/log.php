@@ -1,5 +1,11 @@
 <?php
-
+/**
+ * Integrated ChromePHP into FuelPHP
+ *
+ * @package    Chromephp
+ * @version    0.1
+ * @author     Matthew McConnell
+ */
 
 namespace Chromephp;
 
