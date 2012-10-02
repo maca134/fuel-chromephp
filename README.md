@@ -24,7 +24,7 @@ Errors and log info will appear in the Chrome developer console (Press F12)
 Basic usage
 -----------
 
-Use the FuelPHP log class as you normally would. http://docs.fuelphp.com/classes/log.html
+Use the FuelPHP log and error classes as you normally would. http://docs.fuelphp.com/classes/log.html
 
 Thanks
 ------
