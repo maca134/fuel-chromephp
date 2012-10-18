@@ -108,8 +108,7 @@ class Error extends \Fuel\Core\Error {
         if ($last_error AND in_array($last_error['type'], static::$fatal_levels)) {
             $severity = static::$levels[$last_error['type']];
             logger(\Fuel::L_ERROR, $severity . ' - ' . $last_error['message'] . ' in ' . $last_error['file'] . ' on line ' . $last_error['line']);
-
-            $error = new Chromephp_Exception_Exception($last_error['message'], $last_error['type'], 0, $last_error['file'], $last_error['line']);
+            $error = new Chromephp_Exception_Error($last_error['message'], $last_error['type'], 0, $last_error['file'], $last_error['line']);
             static::exception_handler($error);
             if (\Fuel::$env != \Fuel::PRODUCTION) {
                 static::show_php_error($error);
